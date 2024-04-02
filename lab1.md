@@ -24,6 +24,9 @@ The absolute path before running the command was /c/Users/jzevi which is just th
 
 example 1, using the command with no arguments:
 
+![Image](ls_no_arg.png)
+
+
 
 example 2, using the command with a path to a directory as an argument:
 
