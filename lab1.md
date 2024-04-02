@@ -3,7 +3,7 @@
 **using cd:**
 
 example 1, using the command with no arguments:
-
+![Image](image.png)
 
 example 2, using the command with a path to a directory as an argument:
 
