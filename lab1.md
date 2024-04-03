@@ -44,9 +44,19 @@ The starting location was in the lecture1 directory that contains the Hello.java
 
 example 1, using the command with no arguments:
 
+![Image](cat_no_arg.png)
+
+The starting absolute path was /home/user. There was no output after this command was executed. This command will result in an error because cat expects at least one file as an argument
 
 example 2, using the command with a path to a directory as an argument:
 
+![Image](cat_directory.png)
+
+The starting absolute path was /home/user. The output gave us an error and said that lecture1 was a directory and not a file. This command will result in an error because cat expects a file path as an argument, not a directory path
 
 example 3, using the command with a path to a file as an argument:
+
+![Image](cat_file.png)
+
+The starting absolute path was /home/user. This command will display the contents of the specified file. If the file exists, it's not an error, and the output will be the contents of the specified file or files.
 
