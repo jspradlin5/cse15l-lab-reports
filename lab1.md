@@ -36,6 +36,9 @@ Using lecture1 as the specified directory and starting from /home/user. This com
 
 example 3, using the command with a path to a file as an argument:
 
+![Image](ls_file.png)
+
+The starting location was in the lecture1 directory that contains the Hello.java file. This command will result in an error because ls expects a directory path as an argument, not a file path, so the output will just read Hello.java.
 
 **using 'cat':**
 
