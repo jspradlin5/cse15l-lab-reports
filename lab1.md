@@ -26,7 +26,7 @@ example 1, using the command with no arguments:
 
 ![Image](ls_no_arg.png)
 
-
+This command lists the contents of the current directory. It's not an error, and the output will be a list of files and directories in '/home/user' since that was the starting path.
 
 example 2, using the command with a path to a directory as an argument:
 
