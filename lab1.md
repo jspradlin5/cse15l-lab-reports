@@ -30,6 +30,9 @@ This command lists the contents of the current directory. It's not an error, and
 
 example 2, using the command with a path to a directory as an argument:
 
+![Image](ls_directory.png)
+
+Using lecture1 as the specified directory and starting from /home/user. This command lists the contents of the specified directory. If the directory exists, it's not an error, and the output will be a list of files and directories in the specified directory.
 
 example 3, using the command with a path to a file as an argument:
 
