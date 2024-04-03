@@ -1,5 +1,5 @@
 # **Lab Report 1**
-___
+---
 **using 'cd':**
 
 example 1, using the command with no arguments:
