@@ -1,6 +1,6 @@
 # Lab Report 1
 ---
-**using 'cd':**
+'cd':
 
 example 1, using the command with no arguments:
 
@@ -20,7 +20,7 @@ example 3, using the command with a path to a file as an argument:
 
 The absolute path before running the command was /c/Users/jzevi which is just the home or default starting path. This will result in an error because 'cd' expects a directory path as an argument, not a file path
 
-**using 'ls':**
+'ls':
 
 example 1, using the command with no arguments:
 
@@ -40,7 +40,7 @@ example 3, using the command with a path to a file as an argument:
 
 The starting location was in the lecture1 directory that contains the Hello.java file. This command will result in an error because ls expects a directory path as an argument, not a file path, so the output will just read Hello.java.
 
-**using 'cat':**
+'cat':
 
 example 1, using the command with no arguments:
 
