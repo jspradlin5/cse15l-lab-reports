@@ -49,11 +49,18 @@ class ChatServer {
 }
 ```
 
+
+
 Screenshots of using the `/add-message`:
+
 
 ![Image](chatServer_message1.png)
 
+
+
 ![Image](chatServer_message2.png)
+
+
 
 1) Which methods in your code are called?
 
@@ -71,11 +78,14 @@ For the second request, the chatMessages field further updates with the message 
 
 
 **Part 2:**
+
 `ls` with path to private key:
 ![Image](ls_private_key.png)
 
+
 `ls` with path to public key:
 ![Image](ls_public_key.png)
+
 
 `ssh` without using a password:
 ![Image](ssh_no_password.png)
