@@ -66,7 +66,14 @@ For the second request, the chatMessages field further updates with the message 
 
 
 **Part 2:**
+`ls` with path to private key:
+![Image](ls_private_key.png)
 
+`ls` with path to public key:
+![Image](ls_public_key.png)
+
+`ssh` without using a password:
+![Image](ssh_no_password.png)
 
 
 I learned about the process of securely copying SSH keys to remote servers to enable passwordless SSH login. This procedure involves using the `ssh-copy-id` command to append the public key to the `authorized_keys` file on the remote device, enhancing security and convenience in remote access management.
