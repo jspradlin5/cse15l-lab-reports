@@ -56,11 +56,16 @@ Screenshots of using the `/add-message`:
 ![Image](chatServer_message2.png)
 
 1) Which methods in your code are called?
+
 In the ChatHandler class, the handleRequest method is called.
+
 2) What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
 The relevant arguments are the URI object representing the request URL.
 The chatMessages field of the ChatHandler class holds the current chat history.
+
 3) How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 For the first request, the chatMessages field gets updated with the message "Jude:Hello!".
 For the second request, the chatMessages field further updates with the message "other:Hi!".
 
