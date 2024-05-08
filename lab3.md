@@ -55,4 +55,45 @@ static void reverseInPlace(int[] arr) {
 In the original implementation, each element of the array was being overwritten with the element located at the mirrored position from the end of the array. This resulted in all elements in the array becoming the same as the last element, effectively losing the original content of the array. The fix corrects the issue by properly swapping elements in the array. In the corrected version, each element is swapped with its corresponding element from the reversed position in the array.
 
 
+**Part 2:**
 
+`grep-n`:
+```
+$ grep -n "Introduction" ./technical/biomed/1468-6708-3-1.txt
+5:        Introduction
+```
+
+`grep-c`:
+```
+$ grep -c "planes" ./technical/911report/chapter-1.txt
+16
+```
+
+
+`grep-w`:
+```
+$ grep -w "Cardiovascular" ./technical/biomed/1468-6708-3-1.txt
+          Study design: The Cardiovascular Health
+          The Cardiovascular Health Study (CHS) is a
+        CHS Cardiovascular Health Study
+```
+
+
+`grep-l`:
+```
+$ grep -l "planes" ./technical/911report/*.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-9.txt
+```
