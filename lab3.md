@@ -92,13 +92,12 @@ $ grep -w "Cardiovascular" ./technical/biomed/1468-6708-3-1.txt
           The Cardiovascular Health Study (CHS) is a
         CHS Cardiovascular Health Study
 ```
-The `-w` option matches whole words only, ensuring that the pattern is matched as a standalone word and not as part of a larger word. It's helpful when you want to search for a specific word without getting partial matches or matches within larger words.
-
 Case 2 (directory):
 ```
 $ grep -w "Cardiovascular" ./technical/biomed
 grep: ./technical/biomed: Is a directory
 ```
+The `-w` option matches whole words only, ensuring that the pattern is matched as a standalone word and not as part of a larger word. It's helpful when you want to search for a specific word without getting partial matches or matches within larger words.
 
 `grep-l`:
 Case 1 (file):
