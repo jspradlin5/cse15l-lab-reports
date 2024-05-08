@@ -58,28 +58,46 @@ In the original implementation, each element of the array was being overwritten 
 **Part 2:**
 
 `grep-n`:
+Case 1 (file):
 ```
 $ grep -n "Introduction" ./technical/biomed/1468-6708-3-1.txt
 5:        Introduction
 ```
+Case 2 (directory):
+```
+$ grep -n "Introduction" ./technical/biomed
+grep: ./technical/biomed: Is a directory
+```
 
 `grep-c`:
+Case 1 (file):
 ```
 $ grep -c "planes" ./technical/911report/chapter-1.txt
 16
 ```
-
+Case 2 (directory):
+```
+$ grep -c "planes" ./technical/911report
+grep: ./technical/911report: Is a directory
+0
+```
 
 `grep-w`:
+Case 1 (file):
 ```
 $ grep -w "Cardiovascular" ./technical/biomed/1468-6708-3-1.txt
           Study design: The Cardiovascular Health
           The Cardiovascular Health Study (CHS) is a
         CHS Cardiovascular Health Study
 ```
-
+Case 2 (directory):
+```
+$ grep -w "Cardiovascular" ./technical/biomed
+grep: ./technical/biomed: Is a directory
+```
 
 `grep-l`:
+Case 1 (file):
 ```
 $ grep -l "planes" ./technical/911report/*.txt
 ./technical/911report/chapter-1.txt
@@ -96,4 +114,9 @@ $ grep -l "planes" ./technical/911report/*.txt
 ./technical/911report/chapter-7.txt
 ./technical/911report/chapter-8.txt
 ./technical/911report/chapter-9.txt
+```
+Case 2 (directory):
+```
+$ grep -l "planes" ./technical/911report
+grep: ./technical/911report: Is a directory
 ```
