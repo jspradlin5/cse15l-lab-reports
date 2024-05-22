@@ -16,6 +16,8 @@ Lab Tasks:
     
 
 **Step 4:**
+
+
 ![Image](ieng6_login.png)
 
 Keys pressed:
@@ -26,6 +28,8 @@ Effects: logged the user into the ieng6 server.
 
 
 **Step 5:**
+
+
 ![Image](clone_fork.png)
 
 Keys pressed:
@@ -39,6 +43,8 @@ git<space>clone<space><Ctr + V>
 Effects: First we open the website then copy the url path to the repository. Then we open the terminal and use the git clone command and paste the url after that command to clone the forked repository.
 
 **Step 6:**
+
+
 ![Image](test_fail123.png)
 
 Key pressed:
@@ -51,6 +57,8 @@ java<space>-<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>org.ju
 Effects: Navigate into the 'lab7-fork' directory and then write out the commands to run the tests. These commands ran the test and produced the output when they failed.
 
 **Step 7:**
+
+
 ![Image](vim_editing.png)
 
 Key pressed:
@@ -70,6 +78,8 @@ Effects: first enter 'vim' by inputting the first command so that we can edit th
 
 
 **Step 8:**
+
+
 ![Image](test_pass123.png)
 
 Keys pressed:
@@ -81,6 +91,8 @@ Effects: Once again we just typed out in the terminal the commands to run the te
 
 
 **Step 9:**
+
+
 ![Image](git_commit.png)
 
 Key pressed:
