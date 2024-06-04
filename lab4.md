@@ -30,12 +30,13 @@ Effects: logged the user into the ieng6 server.
 **Step 5:**
 
 
-![Image](clone_fork.png)
+![Image](clone_ssh_link.png)
 
 Keys pressed:
 ```
 <open-website(https://github.com/jspradlin5/lab7-fork)>
 <click-button(<> Code)>
+<click-button(<> SSH)>
 <click-button(copy)>
 <open-terminal>
 git<space>clone<space><Ctr + V>
