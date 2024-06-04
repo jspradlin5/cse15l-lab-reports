@@ -34,7 +34,7 @@ Effects: logged the user into the ieng6 server.
 
 Keys pressed:
 ```
-<open-website(https://github.com/jspradlin5/lab7-fork)>
+<open-website(https://github.com/jspradlin5/lab7-fork1)>
 <click-button(<> Code)>
 <click-button(<> SSH)>
 <click-button(copy)>
@@ -55,7 +55,7 @@ javac<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>*.j
 java<space>-<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>org.junit.runner.JUnitCore<space>ListExamplesTests
 
 ```
-Effects: Navigate into the 'lab7-fork' directory and then write out the commands to run the tests. These commands ran the test and produced the output when they failed.
+Effects: Navigate into the 'lab7-fork1' directory and then write out the commands to run the tests. These commands ran the test and produced the output when they failed.
 
 **Step 7:**
 
@@ -94,7 +94,7 @@ Effects: Once again we just typed out in the terminal the commands to run the te
 **Step 9:**
 
 
-![Image](git_commit.png)
+![Image](git_push_ssh.png)
 
 Key pressed:
 ```
