@@ -52,4 +52,28 @@ Anonymous student:
 
 ## **File Info:**
 
+**Before:**
 
+`ListExamples.java` Before:
+
+![Image](ListExamplesBefore.png)
+
+
+`ListExamplesTest.java` Before:
+
+![Image](ListTestsBefore.png)
+
+
+`test.sh` Before:
+
+![Image](test.sh.png)
+
+
+
+**After:**
+
+No changes made to `ListExamples.java` and `ListExamplesTest.java`
+
+`test.sh` after:
+
+![Image](test.png)
