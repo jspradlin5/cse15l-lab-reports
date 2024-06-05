@@ -35,3 +35,19 @@ Anonymous student:
   Thank you! This fixed the error in my grading script and it now runs correctly.
   
   ![Image](test_pass123.png)
+
+
+
+  ## **Folder Structure:**
+
+|-- lib
+|-- |-- hamcrest-core-1.3.jar
+|-- |-- junit-4.13.2.jar
+|-- ListExamples.java
+|-- ListExamplesTests.java
+|-- test.sh
+
+
+## **File Info:**
+
+
