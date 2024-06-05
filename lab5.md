@@ -76,4 +76,11 @@ No changes made to `ListExamples.java` and `ListExamplesTest.java`
 
 `test.sh` after:
 
-![Image](test.png)
+![Image](testshAfter.png)
+
+
+
+
+## **Part 2:**
+
+During the second half of this quarter, I learned a lot about Bash scripting. Before, I had a basic understanding, but now I appreciate its power in automating tasks, managing files, and integrating different tools. Creating scripts to compile and run Java programs, as well as setting up the environment for testing with JUnit, showed me how Bash can streamline complex workflows. This experience has enhanced my ability to write efficient and effective scripts for various tasks, making my development process more productive.
